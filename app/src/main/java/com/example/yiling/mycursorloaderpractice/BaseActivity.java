@@ -26,6 +26,8 @@ public class BaseActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+				findViews();
     }
 
     @Override
@@ -49,4 +51,8 @@ public class BaseActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+		public void findViews() {
+
+		}
 }
